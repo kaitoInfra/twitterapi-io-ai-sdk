@@ -1,5 +1,5 @@
 // Offline tests: a fake fetch records each request and returns canned API bodies.
-// Run after `npm run build`: node --test test/
+// Run after `npm run build`: npm test
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { twitterApiIoTools, getUserProfile, TwitterApiIoError } from "../dist/index.js";
